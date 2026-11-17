@@ -1,0 +1,25 @@
+# Editor / IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# Operating system
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.bak
+*.old
+
+# Local server data
+server/
+servers/
+world/
+world_nether/
+world_the_end/
+plugins/
+cache/
