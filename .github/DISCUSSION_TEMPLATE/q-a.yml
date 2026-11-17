@@ -1,0 +1,53 @@
+title: "[Question]: "
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Need help with Skript.sk? Provide as much information as possible.
+
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+      description: Explain what you need help with.
+    validations:
+      required: true
+
+  - type: input
+    id: script
+    attributes:
+      label: Related script
+      placeholder: e.g. calc.sk
+    validations:
+      required: false
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Server environment
+      description: Minecraft, server software, Skript and addon versions.
+      placeholder: |
+        Minecraft:
+        Server:
+        Java:
+        Skript:
+        Addons:
+    validations:
+      required: false
+
+  - type: textarea
+    id: errors
+    attributes:
+      label: Error messages
+      description: Paste relevant console errors if applicable.
+      render: text
+    validations:
+      required: false
+
+  - type: textarea
+    id: attempts
+    attributes:
+      label: What have you tried?
+    validations:
+      required: false
