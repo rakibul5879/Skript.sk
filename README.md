@@ -1,3 +1,7 @@
+<img width="1280" height="640" alt="image" src="https://github.com/user-attachments/assets/d9c6f5ae-ae10-4e68-bd50-15125220a196" />
+
+---
+
 # Skript.sk
 
 **A collection of useful Minecraft Skript systems, utilities, and tools.**
