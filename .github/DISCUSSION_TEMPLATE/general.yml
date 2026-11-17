@@ -1,0 +1,25 @@
+title: "[Discussion]: "
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Welcome to the Skript.sk community!
+
+        Keep discussions relevant, respectful, and constructive.
+
+  - type: textarea
+    id: topic
+    attributes:
+      label: Discussion topic
+      description: What would you like to discuss?
+    validations:
+      required: true
+
+  - type: textarea
+    id: details
+    attributes:
+      label: More details
+      description: Share your thoughts, questions, or experiences.
+    validations:
+      required: false
