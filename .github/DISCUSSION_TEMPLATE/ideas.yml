@@ -1,0 +1,47 @@
+title: "[Idea]: "
+labels:
+  - idea
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting an improvement to Skript.sk!
+
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea
+      description: Describe your proposed script or feature.
+      placeholder: I think Skript.sk should have...
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does it solve?
+      description: Explain why this feature would be useful.
+    validations:
+      required: true
+
+  - type: textarea
+    id: implementation
+    attributes:
+      label: Suggested implementation
+      description: How do you think it should work?
+    validations:
+      required: false
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Feature category
+      options:
+        - Utility
+        - Economy
+        - Minigame
+        - Administration
+        - Other
+    validations:
+      required: true
